@@ -12,16 +12,18 @@ export default function Longintro({ children }) {
         <h2>We come to you</h2>
         <div className={styles.tools}><Image src={repairguy} height={75} width={75} />
         </div>
-        <p>
+        <h1>
           Mobil Autoglass Repair/Replacement
-        </p>
+        </h1>
         <div>
           <p>Schedule an appointment today and <b>we will come to you</b>.</p>
           <p>Based in Simi Valley, CA - Serving Southern California</p>
         </div>
-        <h2>Services</h2>
-        <div className={styles.tools}><Image src={repair} height={75} width={75} />
-        </div>
+
+        <div className={styles.services}>
+          <h2>Services</h2>
+          <div className={styles.tools}><Image src={repair} height={75} width={75} />
+          </div>
           <div>
             <ul>
               <li>Long cracks repairs<Image className={styles.check} src={check} height={25} width={25} /></li>
@@ -31,6 +33,7 @@ export default function Longintro({ children }) {
               <li>Replace window motor (regulator)<Image className={styles.check} src={check} height={25} width={25} /></li>
             </ul>
           </div>
+        </div>
         <div>
           <h2>Brand new windshield in under 30 minutes!</h2>
           <div className={styles.tools}><Image src={clock} height={75} width={75} /></div>

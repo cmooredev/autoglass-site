@@ -3,6 +3,8 @@ import Navbar from '../components/navbar'
 import Photos from '../components/photos'
 import Longintro from '../components/longintro'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import flag from '../public/flag.png'
 
 export default function Home() {
   return (
@@ -18,22 +20,32 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.logoImg}>
         </div>
-          <Photos />
-          <Longintro />
+          <div className={styles.schedule}>
+            Mobile autoglass repairs and replacements.
+            <div className={styles.grid}>
+              <a
+                href="/schedule"
+                rel="noopener noreferrer"
+                className={styles.button}
+              >
+                <h2>Schedule Now</h2>
+              </a>
+              <Image
+                class={styles.photo}
+                src={flag}
+                alt="USA Flag"
+                width={200} automatically provided
+                // height={500} automatically provided
+                blurDataURL="data:..." automatically provided
+                placeholder="blur" // Optional blur-up while loading
+              />
+            </div>
 
 
-        <div className={styles.schedule}>
-          Mobile autoglass repairs and replacements.
-          <div className={styles.grid}>
-            <a
-              href="/schedule"
-              rel="noopener noreferrer"
-              className={styles.button}
-            >
-              <h2>Schedule Now</h2>
-            </a>
+
           </div>
-        </div>
+          <Longintro />
+          <Photos />
 
         <div className={styles.reviews}>
 
