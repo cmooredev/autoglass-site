@@ -31,7 +31,7 @@ export default function Home() {
                 <h2>Schedule Now</h2>
               </a>
               <Image
-                class={styles.photo}
+                class={styles.flag}
                 src={flag}
                 alt="USA Flag"
                 width={200} automatically provided
