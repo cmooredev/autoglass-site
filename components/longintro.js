@@ -12,9 +12,9 @@ export default function Longintro({ children }) {
         <h2>We come to you</h2>
         <div className={styles.tools}><Image src={repairguy} height={75} width={75} />
         </div>
-        <h1>
+        <h2>
           Mobile Autoglass Repair and Replacement
-        </h1>
+        </h2>
         <div>
           <p>Schedule an appointment today and <b>we will come to you</b>.</p>
           <p>Based in Simi Valley, CA - Serving Southern California</p>

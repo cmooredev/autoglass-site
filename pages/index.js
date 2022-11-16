@@ -45,6 +45,7 @@ export default function Home() {
           </div>
           <Longintro />
           <Photos />
+          <h2>Reviews from our customers</h2>
           <Reviews />
       </main>
 
