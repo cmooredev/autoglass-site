@@ -13,7 +13,7 @@ export default function Longintro({ children }) {
         <div className={styles.tools}><Image src={repairguy} height={75} width={75} />
         </div>
         <h1>
-          Mobil Autoglass Repair and Replacement
+          Mobile Autoglass Repair and Replacement
         </h1>
         <div>
           <p>Schedule an appointment today and <b>we will come to you</b>.</p>
