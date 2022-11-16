@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/navbar'
-import Clock from '../components/clock'
+import Appointment from '../components/appointment'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import flag from '../public/flag.png'
@@ -16,7 +16,7 @@ export default function Schedule() {
       <Navbar />
 
       <main className={styles.main}>
-        <Clock />
+        <Appointment />
       </main>
 
       <footer className={styles.footer}>

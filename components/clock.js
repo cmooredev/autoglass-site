@@ -12,17 +12,7 @@ export default function Clock() {
     <div className={styles.description}>
       <div className={styles.clock}>
         <h2>Choose a time that works for you!</h2>
-        <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <DateTimePicker
-            renderInput={(props) => <TextField {...props} />}
-            label="DateTimePicker"
-            value={currentTime}
-            onChange={(newTime) => {
-              setTime(newTime);
-            }}
-          />
-        </LocalizationProvider>
-
+        
       </div>
     </div>
   );

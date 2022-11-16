@@ -25,8 +25,8 @@ export default function Home() {
           <div className={styles.schedule}>
             <h2>Autoglass repairs and replacements - Simi Valley, CA</h2>
             <div className={styles.grid}>
-              <Link className={styles.button} href="/schedule"><h2>Schedule Now</h2></Link>
-
+            <Link target="_top" className={styles.book} href="https://squareup.com/appointments/book/fav37xmfpk4rh4/L66805DQ6QAN4/start" rel="nofollow">Book Now
+            </Link>
               <Image
                 className={styles.flag}
                 src={flag}
