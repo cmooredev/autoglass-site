@@ -26,11 +26,11 @@ export default function Longintro({ children }) {
           </div>
           <div>
             <ul>
-              <li>Long crack repairs<Image className={styles.check} src={check} height={25} width={25} /></li>
-              <li>Window replacements<Image className={styles.check} src={check} height={25} width={25} /></li>
-              <li>Rock chip repairs<Image className={styles.check} src={check} height={25} width={25} /></li>
-              <li>Door glass repairs<Image className={styles.check} src={check} height={25} width={25} /></li>
-              <li>Window motor replacements (regulator)<Image className={styles.check} src={check} height={25} width={25} /></li>
+              <li><Image className={styles.check} src={check} height={25} width={25} /> Long crack repairs</li>
+              <li><Image className={styles.check} src={check} height={25} width={25} /> Window replacements</li>
+              <li><Image className={styles.check} src={check} height={25} width={25} /> Rock chip repairs</li>
+              <li><Image className={styles.check} src={check} height={25} width={25} /> Door glass repairs</li>
+              <li><Image className={styles.check} src={check} height={25} width={25} /> Window motor replacements (regulator)</li>
             </ul>
           </div>
         </div>
