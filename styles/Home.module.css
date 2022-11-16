@@ -148,12 +148,8 @@
 }
 
 .logoImg {
-  height: 40vh;
-  width: 100vw;
-  background-image: url('../public/autoglass.png');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 40%;
+  width: 500px;
+  height: auto;
 }
 
 .tools {
@@ -200,10 +196,6 @@
 
 
 @media (max-width: 961px) {
-  .logoImg {
-    height: 30vh;
-    background-size: 45%;
-  }
   .longintro {
     width: 100%;
   }
@@ -211,17 +203,9 @@
 }
 
 @media (max-width: 800px) {
-  .logoImg {
-    height: 30vh;
-    background-size: 50%;
-  }
 }
 
 @media (max-width: 641px) {
-  .logoImg {
-    height: 30vh;
-    background-size: 65%;
-  }
   .grid {
     width: 100%;
     flex-direction: column;
@@ -233,19 +217,23 @@
 }
 
 @media (max-width: 450px) {
+  .navbar ul {
+    font-size: 90%;
+  }
   .photo {
     width: 325px;
     height: 325px;
-  }
-  .logoImg {
-    height: 30vh;
-    background-size: 95%;
   }
   .button {
     font-size: 40%;
     margin-bottom: 3rem;
   }
+  .logoImg {
+    width: 375px;
+    height: auto;
+  }
 }
+
 
 @media (prefers-color-scheme: dark) {
   .card,

@@ -6,6 +6,7 @@ import Longintro from '../components/longintro'
 import Reviews from '../components/reviews'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import autoglass from '../public/autoglass.png'
 import flag from '../public/flag.png'
 
 
@@ -20,8 +21,12 @@ export default function Home() {
       <Navbar />
 
       <main className={styles.main}>
-        <div className={styles.logoImg}>
-        </div>
+
+        <Image
+          src={autoglass}
+          className={styles.logoImg}
+        />
+
           <div className={styles.schedule}>
             <h2>Autoglass repairs and replacements - Simi Valley, CA</h2>
             <div className={styles.grid}>
