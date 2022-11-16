@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Navbar from '../components/navbar'
 import Photos from '../components/photos'
 import Longintro from '../components/longintro'
@@ -6,6 +7,7 @@ import Reviews from '../components/reviews'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import flag from '../public/flag.png'
+
 
 export default function Home() {
   return (
@@ -23,15 +25,10 @@ export default function Home() {
           <div className={styles.schedule}>
             <h2>Autoglass repairs and replacements - Simi Valley, CA</h2>
             <div className={styles.grid}>
-              <a
-                href="/schedule"
-                rel="noopener noreferrer"
-                className={styles.button}
-              >
-                <h2>Schedule Now</h2>
-              </a>
+              <Link className={styles.button} href="/schedule"><h2>Schedule Now</h2></Link>
+
               <Image
-                class={styles.flag}
+                className={styles.flag}
                 src={flag}
                 alt="USA Flag"
                 width={200} automatically provided

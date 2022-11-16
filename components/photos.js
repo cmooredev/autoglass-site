@@ -8,7 +8,7 @@ export default function Photos({ children }) {
     <div className={styles.photos}>
 
       <Image
-        class={styles.photo}
+        className={styles.photo}
         src={repairPhotoOne}
         alt="Billy placing glass."
         width={600} automatically provided
@@ -17,7 +17,7 @@ export default function Photos({ children }) {
         placeholder="blur" // Optional blur-up while loading
       />
       <Image
-        class={styles.photo}
+        className={styles.photo}
         src={repairPhotoTwo}
         alt="Billy placing glass."
         width={600} automatically provided

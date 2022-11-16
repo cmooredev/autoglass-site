@@ -2,6 +2,13 @@
   width: 100%;
 }
 
+.clock {
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .main {
   min-height: 40vh;
   padding: 4rem 0;
