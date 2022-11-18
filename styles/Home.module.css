@@ -194,6 +194,10 @@
   text-align: center;
 }
 
+.navbar {
+  font-size: 110%;
+}
+
 
 @media (max-width: 961px) {
   .longintro {
