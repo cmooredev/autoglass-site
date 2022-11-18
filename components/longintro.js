@@ -7,19 +7,17 @@ import clock from '../public/clock.svg'
 
 export default function Longintro({ children }) {
   return (
+    <>
     <div className={styles.description}>
       <div className={styles.longintro}>
-        <h2>We come to you</h2>
-        <div className={styles.tools}><Image src={repairguy} height={75} width={75} />
-        </div>
-        <h2>
-          Mobile Autoglass Repair and Replacement
-        </h2>
-        <div>
+        <div className={styles.tagline}>
+          <h2>We Will Come To You</h2>
+          <div className={styles.tools}><Image src={repairguy} height={75} width={75} />
+          </div>
+          <h2>Mobile Autoglass Repair and Replacement</h2>
           <p>Schedule an appointment today and <b>we will come to you</b>.</p>
           <p>Based in Simi Valley, CA - Serving Southern California</p>
         </div>
-
         <div className={styles.services}>
           <h2>Services</h2>
           <div className={styles.tools}><Image src={repair} height={75} width={75} />
@@ -34,12 +32,12 @@ export default function Longintro({ children }) {
             </ul>
           </div>
         </div>
-        <div>
+        <div className={styles.more}>
           <h2>Brand new windshield in under 30 minutes!</h2>
           <div className={styles.tools}><Image src={clock} height={75} width={75} /></div>
         </div>
-
       </div>
     </div>
+    </>
   )
 }
